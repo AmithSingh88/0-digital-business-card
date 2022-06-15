@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500&family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #23252C;
+    color: #ffff;
+    font-family: 'inter',sans-serif;
+    height: 140vh;
+
+}
+.container{
+    width: 317px;
+    /* border: 1px solid #ffffff; */
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 107vh;
+    margin-top:120px ;
+    /* padding:0px 33px ; */
+    text-align: center;
+    background-color: #1a1b21;
+}
+.info-container img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.info-container h2{
+    margin-left:10px ;
+    font-size: 25px;
+    letter-spacing: 0.05rem;
+    font-family:'Inter';
+    font-weight: 700;
+    padding: 21px 0px 0px ;
+}
+
+.info-container h4{
+    color: #F3BF99;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 6px 0px 9px 0px;
+}
+
+.info-container a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: 400px;
+}
+
+.info-container button{
+    width: 115px;
+    height: 34px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn1{
+    outline: none;
+    border: none;
+    color: #374151;
+    margin: 15px 8px 33px 0px;
+    
+}
+
+.btn2{
+    outline: none;
+    border: none;
+    background-color: #5093E2;
+    color:white;
+    margin: 15px 0px 33px 7px;
+}
+
+button img{
+    height: 16px;
+}
+
+.about-container{
+    width: 247px;
+    margin-bottom: 17px;
+
+    margin: 0px 33px;
+    padding: 2px;
+
+}
+.about-container h1{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+}
+.about-container p{
+    text-align: left;
+    font-size: 10px;
+    font-weight:400;
+    line-height: 150%;
+    padding: 10px 0px;
+}
+.intrest-container{
+    width: 247px;
+    margin: 0px 33px;
+    margin-bottom: 37px;
+    padding: 2px;
+
+}
+.intrest-container h1{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+.intrest-container p{
+    text-align: left;
+    font-size: 10px;
+    font-weight:400;
+    line-height: 150%;
+}
+
+.footer-container{
+    background-color: #161619;
+    height: 69px;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    padding: 19px;
+
+}
+
+.icon-container{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
