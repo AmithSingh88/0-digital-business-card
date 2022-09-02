@@ -8,20 +8,18 @@ body{
     background-color: #23252C;
     color: #ffff;
     font-family: 'inter',sans-serif;
-    height: 140vh;
+    height: 100vh;
 
 }
 .container{
     width: 317px;
-    /* border: 1px solid #ffffff; */
     border-radius: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    height: 107vh;
-    margin-top:120px ;
-    /* padding:0px 33px ; */
+    height: 80vh;
+   
     text-align: center;
     background-color: #1a1b21;
 }
