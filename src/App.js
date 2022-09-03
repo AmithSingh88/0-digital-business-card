@@ -7,6 +7,7 @@ import './style.css';
 
 
 const App = function () {
+
     return (
         <div className='container'>
             <Info />
@@ -15,6 +16,7 @@ const App = function () {
             <Footer />
         </div>
     )
+
 }
 
 export default App;
